@@ -31,6 +31,28 @@ function App() {
           faucibus nisl tincidunt eget.
         </p>
       </div>
+
+      <div className="container">
+        <h4>Button</h4>
+        <a href="#" className="btn wave-effect wave-dark">
+          Normal Button
+        </a>
+        <a href="#" className="btn indigo wave-effect wave-light">
+          Indigo Button
+        </a>
+        <a href="#" className="btn disabled">
+          Disable Button
+        </a>
+      </div>
+
+      <div className="container">
+        <h4>Icon</h4>
+        <i className="material-icons red-text">error</i>
+        <a href="#" className="btn indigo">
+          <span>Send</span>
+          <i className="material-icons right">send</i>
+        </a>
+      </div>
     </div>
   );
 }
