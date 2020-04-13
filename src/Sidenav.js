@@ -1,5 +1,6 @@
 import React from "react";
 import { SideNavItem, SideNav } from "react-materialize";
+import man_img from "./img/man.jpg";
 
 const SideNavMe = () => {
   return (
@@ -26,7 +27,6 @@ const SideNavMe = () => {
           user={{
             background: "https://placeimg.com/640/480/tech",
             email: "jdandturk@gmail.com",
-            // image: "./img/man.jpg",
             name: "John Doe",
           }}
           userView
