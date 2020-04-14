@@ -18,7 +18,8 @@ const ParallaxMe = (props) => {
           />
         </div>
       </div>
-      <div className="container section">
+      {/* Service tab */}
+      <div className="container section scrollspy" id="services">
         <div className="row">
           <div className="col s12 l4">
             <h2 className="indigo-text text-darken-4">What I do...</h2>
@@ -99,7 +100,7 @@ const ParallaxMe = (props) => {
       </div>
 
       {/* Contact Form */}
-      <section className="section container">
+      <section className="section container scrollspy" id="contact">
         <div className="row">
           <div className="col s12 l5">
             <h2 className="indigo-text text-darken-4">Get In Touch</h2>

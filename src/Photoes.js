@@ -8,7 +8,7 @@ const Photoes = () => {
   return (
     <div>
       {/* Photo /grid */}
-      <section className="container section" id="photoes">
+      <section className="container section scrollspy" id="photoes">
         <div className="row">
           <div className="col s12 m6 14 ">
             <img src={portrait} className="responsive-img"></img>

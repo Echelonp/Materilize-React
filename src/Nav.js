@@ -6,31 +6,45 @@ const Navme = () => {
     <nav className="nav-wrapper transparent">
       <div className="container">
         <SideNavMe></SideNavMe>
-
         <a href="#" className="brand-logo">
           Photo Ninja
         </a>
         <ul className="right hide-on-med-and-down">
           <li>
-            <a href="#">Photo's</a>
+            <a href="#photoes">Photo's</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-
-        <ul className="sidenav grey lighten-2" id="mobile-menu">
-          <li>
-            <a href="#">Photo's</a>
+            <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a
+              href="#"
+              className="tooltipped btn-floating btn-small indigo darken-4"
+              data-tooltip="Instagram"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a
+              href="#"
+              className="tooltipped btn-floating btn-small indigo darken-4"
+              data-tooltip="Facebook"
+            >
+              <i className="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="tooltipped btn-floating btn-small indigo darken-4"
+              data-tooltip="Twitter"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
           </li>
         </ul>
       </div>
