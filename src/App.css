@@ -15,3 +15,11 @@ header {
   padding-bottom: 4vw;
   color: saddlebrown;
 }
+
+.tab {
+  color: rgb(95, 21, 212);
+}
+
+.vspace {
+  padding-top: 10vw;
+}

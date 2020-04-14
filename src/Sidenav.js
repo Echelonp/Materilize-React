@@ -1,6 +1,5 @@
 import React from "react";
 import { SideNavItem, SideNav } from "react-materialize";
-import man_img from "./img/man.jpg";
 
 const SideNavMe = () => {
   return (

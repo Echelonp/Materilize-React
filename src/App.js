@@ -3,10 +3,7 @@ import "./App.css";
 import Navme from "./Nav";
 import Photoes from "./Photoes";
 import ParallaxMe from "./Parallax";
-
-// images
-import star_img from "./img/stars.jpg";
-import street_img from "./img/street.jpg";
+import FooterMe from "./Footer";
 
 function App() {
   return (
@@ -15,8 +12,8 @@ function App() {
         <Navme></Navme>
       </header>
       <Photoes></Photoes>
-      <ParallaxMe img={street_img}></ParallaxMe>
-      <ParallaxMe img={star_img}></ParallaxMe>
+      <ParallaxMe></ParallaxMe>
+      <FooterMe></FooterMe>
     </div>
   );
 }
